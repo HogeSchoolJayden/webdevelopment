@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="checklist">
+      <li class="checked">boter</li>
+      <li>kaas</li>
+      <li class="checked">eieren</li>
+    </ul>
+  </body>
+</html>
+<style>
+  ul.checklist {
+    list-style: none;
+  }
+
+  ul.checklist > li {
+    background-image: url(checkbox.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left center;
+    padding-left: 20px;
+  }
+
+  ul.checklist > li.checked {
+    background-image: url(checkbox-checked.png);
+  }
+</style>
